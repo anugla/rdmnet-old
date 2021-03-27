@@ -1,0 +1,23 @@
+:root {
+  --divbg: black; /* default div background */
+  --grad_btm: black; /* default gradient bottom */
+  --grad_ltop: rgb(25,0,0); /* default gradient low top */
+  --grad_top: rgb(50,0,0); /* default gradient top */
+  --grad_htop: rgb(90,0,0); /* default gradient high top */
+  --grad_hhtop: rgb(255,0,0); /* default gradient high high top */
+  --warn_rt: orange; /* right bit of the WARNINGS */
+  --warn_lf: white; /* left bit of the WARNINGS */
+  --link_a: rgb(255,255,255); /* link, non visited or hovered or active */
+  --visit_a: rgb(255,255,255); /* visited link */
+  --hover_a: rgb(255,100,100); /* hovering over a link */
+  --active_a: rgb(255,0,0); /* active link */
+  --links_btm: rgb(16,16,16); /* bottom link gradient */
+  --links_top: rgb(90,90,90); /* top link gradient */
+  --mod_lf: rgb(16,16,16); /* mod div left bit of gradient */
+  --mod_rt: rgb(80,16,16); /* mod div right bit of gradient */
+  --misc_clr: grey; /* spaced WARNING text color */
+  --txt_color: white; /* text color */
+  --txt_fontd: 'PF Ronda Seven', arial, sans-serif; /* normal text font */
+  --txt_fontbld: 'PF Ronda Seven Bold', 'PF Ronda Seven', sans-serif;
+  --txt_fontb: "PF Arma Five", Gadget, sans-serif; /* large font */
+}

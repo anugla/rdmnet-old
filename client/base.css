@@ -1,0 +1,257 @@
+body {
+  color:var(--txt_color);
+  font-family: var(--txt_fontd);
+  background-image: linear-gradient(to bottom, var(--grad_btm), var(--grad_top));
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+html {
+  height: 100%;
+}
+
+div {
+  background-color: var(--divbg);
+}
+
+#header {
+  margin-bottom: 10px;
+  padding: 0px;
+  background-image: linear-gradient(to bottom, var(--grad_btm), var(--grad_top));
+}
+
+#header p {
+  padding: 0px;
+  margin: 0px;
+}
+
+/* the WARNING */
+#warning {
+  margin-top: 10px;
+  background-image: linear-gradient(to left ,var(--warn_rt), var(--warn_lf));
+  color: black;
+}
+
+/* warning italics, spaces it and makes it gray */
+#warning i {
+  font-family: var(--font_b);
+  color: rgb(50,50,50);
+  letter-spacing: 1ex;
+}
+
+/* foreboding text, shows as a gradient */
+.foreboding {
+  background-image: linear-gradient(180deg, var(--grad_htop), var(--grad_hhtop));
+  background-size: 200%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+  font-family: var(--text_bld);
+}
+
+/* the random text next to the RDMNet header */
+#titleSub {
+  background-image: linear-gradient(180deg, var(--grad_top), var(--grad_htop));
+  background-size: 200%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+  letter-spacing: 1em;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+/* the RDMNet header */
+#titleHeader {
+  font-family: var(--txt_fontbld);
+  margin: 0px;
+  padding-left: 10px;
+  font-style: italic;
+  text-shadow: 2px 2px 2px var(--grad_top);
+  display: inline-block;
+  color: var(--grad_htop);
+}
+
+#content h1 {
+  font-family: var(--txt_fontb);
+  font-style: italic;
+  color: gray;
+  letter-spacing: 1ex;
+  text-transform: uppercase;
+}
+
+a:link {
+  color: var(--link_a);
+}
+
+a:visited {
+  color: var(--visit_a);
+}
+
+a:hover {
+  color: var(--hover_a);
+}
+
+a:active {
+  color: var(--active_a);
+}
+
+#content {
+  margin-bottom: 10px;
+  background-image: linear-gradient(to bottom, var(--grad_btm), var(--grad_ltop));
+  min-height: 40%;
+}
+
+/* keep it from touching the edges */
+#content * {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#footer {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* footer text, removes margin and padding and makes it inline-block so the italics and paragraph can be on the same line */
+#footer p {
+  margin: 0px;
+  padding: 0px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+h2 {
+  font-family: --var(--txt_fontbld)
+}
+
+/* footer italics, makes it look like the warning */
+#footer i {
+  font-family: var(--txt_fontb);
+  letter-spacing: 1ex;
+  color: grey;
+}
+
+/* links div, in header under header content */
+#links {
+  font-family: var(--txt_fontb);
+  background-color: rgb(16,16,16);
+  margin: 0px;
+  padding: 0px;
+}
+
+/* each link there (p's span) */
+#links p {
+  margin: 0px;
+  padding: 0px;
+  background-image: linear-gradient(to top, var(--links_btm), var(--links_top));
+}
+
+/* mod div, gives gradient */
+.mod {
+  margin: 1em;
+  background-image: linear-gradient(to right, var(--mods_btm), var(--mods_top));
+}
+
+/* mod smalltext */
+.mod small {
+  padding: 0px;
+}
+
+/* mod thumbnail */
+.mod img {
+  max-height: 200px;
+  max-width: 200px;
+
+}
+
+/* (c) Koli Co fixes link to be center */
+.dumblink {
+  display: inline-flex;
+  vertical-align: text-bottom;
+  text-decoration: none;
+  height: 24px;
+  line-height: 24px;
+}
+
+/* the Cant think of anything to put here... text or image in the bottom right */
+#funny {
+  font-family: var(--txt_fontb);
+  background-color: rgba(0,0,0,0);
+  z-index: 10;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  opacity: 50%;
+  font-style: italic;
+}
+
+.button {
+  background-image: linear-gradient(to bottom, var(--grad_top), var(--grad_htop));
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+}
+
+
+.button:hover {
+  background-image: linear-gradient(to bottom, var(--grad_htop), var(--grad_hhtop));
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.forumpost {
+  background-image: linear-gradient(to right, var(--grad_btm), var(--grad_top));
+  padding: 5px;
+}
+
+.forumpost * {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+hr {
+  background-image: linear-gradient(to left, var(--grad_btm), var(--grad_htop));
+  background-size: contain;
+  display: block;
+  border: 0;
+  height: 2;
+  position: relative;
+}
+
+.mdstrong {
+  font-family: var(--font_bld);
+  background-color: rgba(0,0,0,255);
+  display: inline;
+}
+
+.mditalic {
+  font-style: italic;
+  background-color: rgba(0,0,0,255);
+  display: inline;
+}
+
+.forumcontentdiv * {
+  display: inline;
+}
+
+.linkicon {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}

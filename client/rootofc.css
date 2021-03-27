@@ -1,0 +1,22 @@
+:root {
+  --divbg: white;
+  --grad_btm: white;
+  --grad_ltop: rgb(255,255,255);
+  --grad_top: rgb(255,255,255);
+  --grad_htop: rgb(255,255,255);
+  --grad_hhtop: rgb(255,255,255);
+  --warn_rt: orange;
+  --warn_lf: white;
+  --link_a: rgb(255,255,255);
+  --visit_a: rgb(255,255,255);
+  --hover_a: rgb(0,0,255);
+  --active_a: rgb(255,0,0);
+  --links_btm: rgb(200,200,200);
+  --links_top: rgb(255,255,255);
+  --mod_lf: rgb(16,16,16);
+  --mod_rt: rgb(16,16,16);
+  --misc_clr: grey;
+  --txt_color: black;
+  --txt_fontd: "Arial";
+  --txt_fontb: "Arial";
+}

@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'PF Arma Five';
+    src: url('/content/font/PFArmaFive.woff2') format('woff2'),
+        url('/content/font/PFArmaFive.woff') format('woff'),
+        url('/content/font/PFArmaFive.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PF Ronda Seven';
+    src: url('/content/font/PFRondaSeven.woff2') format('woff2'),
+        url('/content/font/PFRondaSeven.woff') format('woff'),
+        url('/content/font/PFRondaSeven.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PF Ronda Seven Bold';
+    src: url('/content/font/PFRondaSeven-Bold.woff2') format('woff2'),
+        url('/content/font/PFRondaSeven-Bold.woff') format('woff'),
+        url('/content/font/PFRondaSeven-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
